@@ -12,7 +12,7 @@
 ```bash
 conda create --name PAGER python==3.11
 conda activate PAGER
-git clone https://github.com/NEUIR/Attention_Floating.git
+git clone https://github.com/OpenBMB/PAGER.git
 cd PAGER
 pip install -r requirement.txt
 ```
