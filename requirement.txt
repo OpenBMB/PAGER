@@ -1,0 +1,9 @@
+faiss==1.9.0
+faiss-gpu-cu12==1.11.0
+fastapi==0.116.1
+torch==2.6.0
+transformers==4.55.0
+vllm==0.8.4
+uvicorn==0.35.0
+scikit-learn==1.7.1
+tqdm==4.67.1
