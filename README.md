@@ -47,12 +47,12 @@ pip install -r requirement.txt
 
 This section provides a step-by-step guide to reproduce our results.
 
-### 1) Evaluation Dataset Download
+### 1. Evaluation Dataset Download
 You can download the evaluation dataset required for this experiment from here. We use the Wiki dataset provided by FlashRAG as the retrieval corpus, and the downloading and processing procedures are detailed [here](https://github.com/RUC-NLPIR/FlashRAG/blob/main/docs/original_docs/process-wiki.md).
 
 For the downloaded evaluation dataset and the processed corpus, you need to move them to the `evaluation_dataset` folder.
 
-### 2) Deploying a Retrieval Model Service
+### 2. Deploying a Retrieval Model Service
 
 
 #### 2.1. Encode the Wikipedia Corpus:
@@ -79,7 +79,7 @@ Afterward, you need to run the `ret_serve.sh` script to deploy the retrieval ser
 bash bash/ret_serve.sh
 ```
 
-### 3) Construct the Structured Page
+### 3. Construct the Structured Page
 #### 3.1. Construct the Outline:
 Construct an outline for the questions in the evaluation dataset. You need to run the following script and store the generated outline in the `output_data/outline` directory.
 
@@ -96,7 +96,7 @@ After obtaining the initialized page, you need to iteratively fill it with knowl
 bash bash/construct_page.sh
 ```
 
-### 4) Page Inference
+### 4. Page Inference
 #### 4.1. Infer the Answers.
 After obtaining the pages generated in the `output_data/page` directory, you need to use the generated pages to answer the given questions and store the resulting answers in the `output_data/infer` directory.
 
