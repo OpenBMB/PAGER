@@ -4,7 +4,7 @@
 
 **PAGER** is a page-driven autonomous knowledge representation framework designed for organizing and utilizing knowledge in Retrieval-Augmented Generation (RAG) scenarios. Specifically, **PAGER** first prompts an LLM to construct a structured cognitive outline for a given query, consisting of multiple slots, each representing a distinct knowledge dimension. Guided by these slots, **PAGER** then iteratively retrieves and refines relevant documents, populating each slot with pertinent information, and ultimately constructs a coherent "knowledge page" that serves as contextual input for answer generation. Experimental results on multiple knowledge-intensive benchmark tasks and across various backbone models show that **PAGER** consistently outperforms all RAG baselines across evaluation metrics.
 
-<img src="figs/method.pdf" width="90%">
+<img src="figs/method.png" width="90%">
 
 
 # ⚙️ Setup
