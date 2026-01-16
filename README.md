@@ -48,7 +48,7 @@ pip install -r requirement.txt
 This section provides a step-by-step guide to reproduce our results.
 
 ### 1. Evaluation Dataset Download
-You can download the evaluation dataset required for this experiment from here. We use the Wiki dataset provided by FlashRAG as the retrieval corpus, and the downloading and processing procedures are detailed [here](https://github.com/RUC-NLPIR/FlashRAG/blob/main/docs/original_docs/process-wiki.md).
+You can download the evaluation dataset required for this experiment from [here](https://drive.google.com/drive/folders/1-ByTyrchohtmZqoZVawmp6A9TA9bRnh_?usp=drive_link). We use the Wiki dataset provided by FlashRAG as the retrieval corpus, and the downloading and processing procedures are detailed [here](https://github.com/RUC-NLPIR/FlashRAG/blob/main/docs/original_docs/process-wiki.md).
 
 For the downloaded evaluation dataset and the processed corpus, you need to move them to the `evaluation_dataset` folder.
 
